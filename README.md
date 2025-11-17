@@ -33,3 +33,20 @@ Ideal for mini-markets, mobile phone shops, and other small businesses, focusing
 - Monitor daily and monthly transactions for better decision-making.
 
 ---
+
+## 📥 Installation & Setup
+
+1️⃣ **Open Project**  
+Open the `.sln` solution file in **Visual Studio**.
+
+2️⃣ **Restore Dependencies**  
+Restore **NuGet packages** if needed.
+
+3️⃣ **Prepare the Database**  
+Open **SQL Server Management Studio (SSMS)** and run the provided `.sql` script to create tables and seed initial data.
+
+4️⃣ **Update Configuration**  
+Set your SQL Server connection string in: WindowsFormsApplication6\DBconnect.cs
+
+5️⃣ **Run Application**  
+Press **F5** in Visual Studio to launch the POS system.
